@@ -1,0 +1,78 @@
+// in-page navigation list
+
+.list {
+
+  clear: both;
+  margin: 1em 0;
+
+  ul, li {
+    list-style-type: none;
+    @include reset;
+  }
+
+  ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  li {
+    flex: 1 1 12em;
+    margin: 2vmin;
+    border: 1px solid $color-fore;
+  }
+
+  li#roof-training-centre {
+    flex-basis: 100%;
+  }
+
+  a {
+    display: block;
+    height: 100%;
+  }
+
+  a:link, a:visited {
+    text-decoration: none;
+    padding-bottom: 0.5em;
+    color: $color-fore;
+  }
+
+  .img {
+    background-color: $color-fore;
+    border-bottom: 1px solid $color-fore;
+    overflow: hidden;
+  }
+
+  h2, p {
+    line-height: 1.15;
+    margin: 0.3rem 1rem;
+  }
+
+  p.date {
+    font-size: 0.75em;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    max-width: auto;
+    transform: scale(1);
+    will-change: transform;
+    transition: transform 2s ease-in-out;
+  }
+
+  a:hover, a:focus {
+
+    background-color: rgba($color-logo-train, 0.2);
+
+    img {
+      transform: scale(1.1);
+    }
+
+    h2 {
+      color: $color-logo;
+    }
+
+  }
+
+}

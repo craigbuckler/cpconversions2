@@ -1,0 +1,24 @@
+<header<% if (typeof heroclass === 'string') { %> class="<%- heroclass %>"<% } %>>
+
+  <div class="back">
+    <img src="<%- imagecdn %>c_scale,w_50/<%- hero %>" alt="<%= hero.replace(/.+\/([^/]+)\..+$/, '$1').trim(); %>" />
+  </div>
+
+  <% if (hero) { %>
+    <figure data-href="<%- imagecdn %><%- hero %>" class="hero progressive replace" itemprop="primaryImageOfPage">
+      <img src="<%- imagecdn %>c_scale,w_50/<%- hero %>" alt="<%= hero.replace(/.+\/([^/]+)\..+$/, '$1').trim(); %>" class="preview" />
+    </figure>
+  <% } %>
+
+  <% if (heroquote) { %>
+  <div class="quote">
+    <q><%- heroquote %></q>
+
+    <% if (ctalink && ctatext) { %>
+      <a href="[root]<%- ctalink %>" class="cta"><%- ctatext %></a>
+    <% } %>
+
+  </div>
+  <% } %>
+
+</header>

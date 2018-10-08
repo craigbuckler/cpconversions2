@@ -1,0 +1,191 @@
+// Base styles
+:root {
+  font-size: $font-size-rwd;
+}
+
+html {
+  touch-action: manipulation;
+  background-color: $color-menu;
+}
+
+body {
+  font-family: $font-main;
+  font-size: 100%;
+  font-weight: 300;
+  line-height: 1.2;
+  @include reset;
+  color: $color-fore;
+  background-color: $color-back;
+}
+
+table, input, output, textarea, select, option, pre, button {
+  font-family: $font-main;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+pre {
+	font-family: $font-mono;
+}
+
+h1, h2 {
+  clear: both;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  padding: 0;
+  margin: 1em 0 0 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-top: 2em;
+}
+
+p {
+  line-height: 1.4;
+  margin: 1em 0 1px 0;
+}
+
+h2 + p, h2 + blockquote + p {
+  margin-top: 0.2em;
+}
+
+ul, ol {
+  padding: 0;
+  margin: 1.5em 3em 1em 3em;
+}
+
+ul {
+  list-style-type: square;
+}
+
+li {
+  padding: 0;
+  margin: 0.8em 0 0 0;
+}
+
+li > :first-child, li a > :first-child {
+  margin-top: 0;
+}
+
+strong {
+  font-weight: 600;
+}
+
+blockquote {
+
+  display: block;
+  position: relative;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding: 0.5em 1em 1em;
+  color: #fff;
+  background-color: $color-fore;
+
+  p {
+    font-size: 1.3em;
+    font-style: italic;
+    line-height: 1.1;
+    text-align: center;
+    margin: 0;
+  }
+
+  cite {
+    display: block;
+    font-size: 0.7em;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 0.5em;
+  }
+
+  @include respond('small') {
+
+    width: 50%;
+    float: right;
+    margin: 1em 0 0.5em 2em;
+
+  }
+
+  &:after {
+    position: absolute;
+    right: 15px;
+    bottom: -15px;
+    content: '';
+    width: 0;
+    height: 0;
+    border: 8px solid transparent;
+    border-color: $color-fore transparent transparent $color-fore;
+  }
+
+}
+
+hr {
+	height: 0px;
+	border: 0 none;
+  border-bottom: 1px solid #999;
+	margin: 0.5rem 0;
+}
+
+a, a:link, a:visited {
+  text-decoration: none;
+  color: $color-logo;
+
+  main & {
+    text-decoration: underline dotted $color-logo;
+  }
+}
+
+a:hover, a:active, a:focus {
+  color: lighten($color-logo, 20%);
+}
+
+figure {
+  margin: 1em 0 0 0;
+}
+
+figure.inline {
+  box-shadow: 0 2px 5px $color-fore;
+}
+
+img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  @include reset;
+  border: 0 none;
+  user-select: none;
+}
+
+hr {
+  clear: both;
+  border: 0 none;
+}
+
+.articleinfo {
+  font-size: 0.85em;
+  padding-bottom: 0.3em;
+  border-bottom: 3px solid lighten($color-fore, 70%);
+}
+
+@include respond('small') {
+
+  .articleinfo {
+    text-align: right;
+  }
+
+  figure.inline {
+    float: left;
+    width: calc(50% + 2em);
+    margin: 1em 2em 1em -4vw;
+  }
+
+  figure.inline.alt {
+    float: right;
+    width: 50%;
+    margin: 1em -4vw 1em 2em;
+  }
+
+}

@@ -1,0 +1,17 @@
+<footer>
+
+  <ul>
+    <li>&copy;<%= nowYear %> <%= company %></li>
+    <li><a href="tel:+44-800-357-9909" class="icon phone">+44 800 357 9909</a></li>
+    <li><a href="tel:+44-7813-989-909" class="icon phone">+44 7813 989 909</a></li>
+    <li><a href="#" class="icon email">contact {at} cpconversions dot co dot uk</a></li>
+    <li id="install"><a href="#install" class="icon home-add">install</a></li>
+  </ul>
+
+  <p>Registered in England and Wales No. 08589140. All rights reserved.</p>
+
+  <p class="optimalworks"><a href="https://www.optimalworks.net/" class="icon optimalworks" title="site developed by OptimalWorks Ltd">optimalWORKS</a></p>
+
+  <% if (devBuild) { %><p class="dev"><%= layout || 'page.html' %> layout, v<%= version %></p><% } %>
+
+</footer>
