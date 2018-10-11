@@ -1,50 +1,9 @@
 // fallback layout
-main, aside {
-  clear: both;
-  max-width: 46em;
-  padding: 0 1em;
-  margin: 0 auto;
-  background-color: $color-back;
-}
 
-nav.main, #menu {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  background-color: $color-menu;
-}
-
-.menuopen nav.main {
-  position: fixed;
-}
-
-#logo, #menuopen {
-  float: left;
-  height: $menuheight - 0.25rem;
-  font-size: 1.5em;
-  margin: 0.05em 0 0.2em 5vw;
-}
-
-#menuopen {
-  float: right;
-  margin: 0.15em 5vw 0 0;
-}
 
 // grid layout
 @supports (display: grid) {
 
-  body {
-    display: grid;
-    grid-template-columns: minmax(4vw,1fr) minmax(15em,35em) minmax(4vw,1fr);
-  }
 
-  header, footer, nav.main, aside.accreditation {
-    grid-column: 1 / 4;
-  }
-
-  main, aside {
-    grid-column: 2 / 3;
-    @include reset;
-  }
 
 }

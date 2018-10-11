@@ -2,7 +2,7 @@
 title: CP Conversions Exeter builders
 menu: home
 description: Professional building service including conversions, extensions, refurbishments, kitchens, bathrooms and carpentry, throughout Exeter and Devon.
-hero: v1515518078/train/solar2.jpg
+hero: v1539262992/conversion-02
 heroquote: Exeter professional building services
 ctatext: contact us
 ctalink: contact-us/

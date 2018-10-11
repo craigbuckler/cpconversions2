@@ -2,7 +2,7 @@
 title: Building services
 menu: services
 description: Conversions, extensions, refurbishments, kitchens, bathrooms and carpentry services offered in Exeter and throughout Devon.
-hero: v1515518025/train/tiling3.jpg
+hero: v1539262993/conversion-04
 heroquote: professional building services
 ctatext: contact us
 ctalink: contact-us/

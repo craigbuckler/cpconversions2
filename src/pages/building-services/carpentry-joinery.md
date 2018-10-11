@@ -2,7 +2,7 @@
 title: Carpentry and joinery
 menu: carpentry
 description: Carpentry and joinery
-hero: v1515518078/train/solar1.jpg
+hero: v1539262986/carpentry-02
 heroquote: carpentry and joinery
 ctatext: contact us
 ctalink: contact-us/

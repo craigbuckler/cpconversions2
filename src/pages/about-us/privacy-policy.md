@@ -2,7 +2,7 @@
 title: Privacy policy
 menu: privacy policy
 description: CP Conversions privacy policy and General Data Protection Regulation (GDPR).
-hero: v1516298724/train/plans.jpg
+hero: v1539264577/privacy
 heroquote: committed to protecting your privacy
 priority: 0.1
 ---

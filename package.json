@@ -19,11 +19,11 @@
     "root": "/",
     "devdomain": "http://192.168.1.23:8000",
     "devroot": "/",
-    "themeColor": "#999999",
+    "themeColor": "#662222",
     "PWAcache": "::CPc",
     "offlineURL": "offline/",
     "offlineList": "cachedpagelist",
-    "imagecdn": "https://res.cloudinary.com/rooftrain/image/upload/",
+    "imagecdn": "https://res.cloudinary.com/cpconversions/image/upload/",
     "analytics": "UA-114126-26"
   },
   "main": "gulp build",

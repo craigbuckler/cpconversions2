@@ -2,7 +2,7 @@
 title: Contact us
 menu: contact us
 description:
-hero: v1516298724/train/alan-lander.jpg
+hero: v1539262575/chris-potter
 heroquote: contact us about your next building project
 priority: 0.5
 ---

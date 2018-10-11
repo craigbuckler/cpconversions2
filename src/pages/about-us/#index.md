@@ -2,7 +2,7 @@
 title: About CP Conversions
 menu: about us
 description: About CP Conversions
-hero: v1527239977/train/team6.jpg
+hero: v1539262575/cp-conversions-van
 heroquote: professional building services
 ctatext: contact us
 ctalink: contact-us/

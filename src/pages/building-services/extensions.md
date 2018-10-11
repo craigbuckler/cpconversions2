@@ -2,7 +2,7 @@
 title: Home extensions
 menu: extensions
 description: Home extensions
-hero: v1515518077/train/battening.jpg
+hero: v1539263008/extension-03
 heroquote: home extensions
 ctatext: contact us
 ctalink: contact-us/

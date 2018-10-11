@@ -2,7 +2,7 @@
 title: Kitchen installation
 menu: kitchens
 description: Kitchen installation
-hero: v1515518025/train/tiling2.jpg
+hero: v1539263015/kitchen-02
 heroquote: Kitchen installation
 ctatext: contact us
 ctalink: contact-us/

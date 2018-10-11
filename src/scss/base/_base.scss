@@ -5,7 +5,7 @@
 
 html {
   touch-action: manipulation;
-  background-color: $color-menu;
+  background-color: $color-bak1;
 }
 
 body {
@@ -15,17 +15,13 @@ body {
   line-height: 1.2;
   @include reset;
   color: $color-fore;
-  background-color: $color-back;
+  background-color: $color-bak1;
 }
 
 table, input, output, textarea, select, option, pre, button {
   font-family: $font-main;
   font-size: 1em;
   font-weight: 300;
-}
-
-pre {
-	font-family: $font-mono;
 }
 
 h1, h2 {

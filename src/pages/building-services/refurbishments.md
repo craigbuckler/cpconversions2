@@ -2,7 +2,7 @@
 title: Building refurbishments
 menu: refurbishments
 description: Building refurbishments
-hero: v1516298724/train/plans.jpg
+hero: v1539263030/refurbishment-03
 heroquote: building refurbishments
 ctatext: contact us
 ctalink: contact-us/

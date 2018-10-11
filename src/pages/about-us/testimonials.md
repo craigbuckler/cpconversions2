@@ -2,7 +2,7 @@
 title: CP Conversions client testimonials
 menu: clients
 description: CP Conversions client testimonials
-hero: v1515518078/train/team2.jpg
+hero: v1539264577/feedback
 heroquote: working on building projects of any size
 ctatext: contact us
 ctalink: contact-us/

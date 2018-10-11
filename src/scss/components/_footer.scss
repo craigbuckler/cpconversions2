@@ -1,37 +1,5 @@
 // page footer
 footer {
-  position: relative;
-  font-size: 0.85em;
-  text-align: center;
-  padding: 1rem 4vw 2rem;
-  color: $color-back;
-  background-color: $color-menu;
-
-  ul {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    list-style: none;
-    @include reset;
-  }
-
-  li {
-    padding: 0.2em 1em;
-
-    a:link, a:visited {
-      text-align: center;
-      color: $color-back;
-
-      &:before {
-        width: 1.5em;
-        height: 1.5em;
-        margin-right: 0.4em;
-        background-color: $color-back;
-        border-radius: 25%;
-      }
-
-    }
-  }
 
   a.optimalworks {
     position: absolute;
