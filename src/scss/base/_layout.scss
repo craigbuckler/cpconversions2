@@ -1,9 +1,15 @@
-// fallback layout
+// primary layout
+header, .breadcrumb, main, aside, footer {
 
+  max-width: 48em;
+  margin: 0 auto;
+  background-color: $color-bak1;
 
-// grid layout
-@supports (display: grid) {
+}
 
-
-
+main {
+  padding: 1vh 4vw;
+  background: $color-bak1 inline('images/cp-conversions.svg') 100% 0% no-repeat;
+  background-size: 60%;
+  // background-blend-mode: overlay;
 }

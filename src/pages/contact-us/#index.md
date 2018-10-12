@@ -2,7 +2,7 @@
 title: Contact us
 menu: contact us
 description:
-hero: v1539262575/chris-potter
+hero: v1539358558/contact
 heroquote: contact us about your next building project
 priority: 0.5
 ---

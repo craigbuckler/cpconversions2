@@ -1,14 +1,14 @@
-<header<% if (typeof heroclass === 'string') { %> class="<%- heroclass %>"<% } %>>
-
-  <div class="back">
-    <img src="<%- imagecdn %>c_scale,w_50/<%- hero %>" alt="<%= hero.replace(/.+\/([^/]+)\..+$/, '$1').trim(); %>" />
-  </div>
+<header>
 
   <% if (hero) { %>
     <figure data-href="<%- imagecdn %><%- hero %>" class="hero progressive replace" itemprop="primaryImageOfPage">
       <img src="<%- imagecdn %>c_scale,w_50/<%- hero %>" alt="<%= hero.replace(/.+\/([^/]+)\..+$/, '$1').trim(); %>" class="preview" />
     </figure>
   <% } %>
+
+  <p class="logo">
+    <a href="<%- root %>"><img src="images/cp-conversions.svg" data-inline="1" /><strong>CP<span>Conversions</span> <em><%= topic %></em></strong></a>
+  </p>
 
   <% if (heroquote) { %>
   <div class="quote">

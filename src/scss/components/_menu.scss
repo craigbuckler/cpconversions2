@@ -1,4 +1,127 @@
 // menu system
-nav.main {
+$menusize: 8em;
+$menugap: 0.8em;
+$menucentre: $menusize + ($menugap / 2);
+$menupad: $menusize * 3;
+$menuoffset: $menusize * 3;
+
+#menu {
+  display: none;
+  position: fixed;
+  top: 3em;
+  right: 0;
+
+  .menuopen & {
+    display: block;
+  }
+
+  img {
+    display: none;
+  }
+
+  ul, li {
+    @include reset-list;
+  }
+
+  ul {
+    background-color: $color-logo;
+    padding: 1em 0;
+    border-radius: 0 0 0 1em;
+  }
+
+  a {
+    display: block;
+    padding: 0.6em 1.2em;
+    color: #fff;
+  }
+
+}
+
+#menuopen {
+  position: fixed;
+  top: 0em;
+  right: 0em;
+  margin: 0;
+
+  a {
+    display: block;
+    padding: 1em 2em 1em 1em;
+    color: $color-bak1;
+    background-color: $color-logo;
+    border-radius: 0 0 0 1em;
+  }
+}
+
+
+@supports (display: grid) {
+
+  #menu {
+    display: block;
+    top: -3.5 * $menusize;
+    right: -2.1 * $menusize;
+    padding: $menupad $menupad $menupad 2em;
+    background-color: $color-logo;
+    box-shadow: 0 -10px 5px rgba(0,0,0,0.8);
+    transform: rotate(-45deg) translateX(80%);
+    transition: transform 0.4s ease-in-out;
+
+    .menuopen & {
+      transform: rotate(-45deg) translateX(0%);
+    }
+
+    ul {
+      display: grid;
+      grid-template-columns: repeat(2, $menusize);
+      grid-template-rows: repeat(2, $menusize);
+      grid-gap: $menugap;
+      transform-origin: $menucentre $menucentre;
+      padding: 0;
+      border-radius: 0;
+    }
+
+    li {
+      overflow: hidden;
+      position: relative;
+      background-color: #fff;
+    }
+
+    li:nth-child(1) {
+      grid-row: 1 / 2;
+      grid-column: 2 / 3;
+    }
+
+    li:nth-child(4) {
+      grid-row: 2 / 3;
+      grid-column: 1 / 2;
+    }
+
+    img {
+      display: block;
+      width: 200%;
+      max-width: none;
+      transform: translateX(-25%) translateY(-25%);
+      transition: transform 1s ease-out;
+    }
+
+    li:hover, li:focus {
+
+      img {
+        transform: translateX(-25%) translateY(-25%) scale(1.1);
+      }
+
+    }
+
+    a {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      font-size: 1.4em;
+      padding: 0.2em 0.4em;
+      text-shadow: 0 0 2px #000;
+    }
+
+  }
 
 }

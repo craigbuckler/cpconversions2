@@ -1,10 +1,9 @@
-<nav class="main">
+<p id="menuopen"><a href="#menu" class="icon menu">MENU</a></p>
 
-  <p id="logo"><a href="<%- root %>"><img src="images/cp-conversions.svg" data-inline="1" /></a></p>
+<nav id="menu">
 
   <%
     let navHTML = navGenerate(nav);
-    if (navHTML) navHTML = '<p id="menuopen"><a href="#menu" class="icon menu">menu</a></p>' + navHTML;
 
     function navGenerate(navSet) {
 
@@ -19,16 +18,12 @@
         level = page.level;
 
         if (!page.private) navHTML +=
-          '<li' + (open ? ' class="open' + (active ? ' active' : '') + '"' : '') + '>' +
-          (page.child.length && !page.nomenu ? '<a href="#open" class="opener">&nbsp;</a>' : '') +
-          (active ? '<strong>' : '<a href="' + root + page.url + '">') +
-          page.menu +
-          (active ? '</strong>' : '</a>') +
-          (page.nomenu ? '' : navGenerate(page.child)) +
-          '</li>';
+          '<li>' +
+          (page.thumb ? '<img src="' + imagecdn + 'c_scale,f_auto,w_250/a_45/' + page.thumb + '" alt="' + page.title + '" />' : '') +
+          '<a href="' + root + page.url + '">' + page.menu + '</a></li>';
       }
 
-      return navHTML ? '<ul' + (level ? '' : ' id="menu"') + '>' + navHTML + '</ul>' : navHTML;
+      return navHTML ? '<ul>' + navHTML + '</ul>' : navHTML;
     }
   %>
 

@@ -5,7 +5,7 @@
 
 html {
   touch-action: manipulation;
-  background-color: $color-bak1;
+  background-color: $color-logo;
 }
 
 body {
@@ -13,9 +13,9 @@ body {
   font-size: 100%;
   font-weight: 300;
   line-height: 1.2;
-  @include reset;
+  margin: 0;
+  padding: 1vh 2vw;
   color: $color-fore;
-  background-color: $color-bak1;
 }
 
 table, input, output, textarea, select, option, pre, button {
@@ -126,15 +126,15 @@ hr {
 
 a, a:link, a:visited {
   text-decoration: none;
-  color: $color-logo;
+  color: $color-link;
 
   main & {
-    text-decoration: underline dotted $color-logo;
+    text-decoration: underline dotted $color-link;
   }
 }
 
 a:hover, a:active, a:focus {
-  color: lighten($color-logo, 20%);
+  color: lighten($color-link, 15%);
 }
 
 figure {
@@ -158,30 +158,4 @@ img {
 hr {
   clear: both;
   border: 0 none;
-}
-
-.articleinfo {
-  font-size: 0.85em;
-  padding-bottom: 0.3em;
-  border-bottom: 3px solid lighten($color-fore, 70%);
-}
-
-@include respond('small') {
-
-  .articleinfo {
-    text-align: right;
-  }
-
-  figure.inline {
-    float: left;
-    width: calc(50% + 2em);
-    margin: 1em 2em 1em -4vw;
-  }
-
-  figure.inline.alt {
-    float: right;
-    width: 50%;
-    margin: 1em -4vw 1em 2em;
-  }
-
 }

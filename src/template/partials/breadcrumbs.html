@@ -1,0 +1,23 @@
+<%
+
+  let breadcrumb =
+    '<nav class="breadcrumb">\n<ol>\n' +
+    '<li>' + (url ? '<a href="' + root + '">' : '<strong>') + 'Home' + (url ? '</a>' : '</strong>') + '</li>\n' +
+    getRoute(navrel) +
+    '</ol>\n</nav>';
+
+  function getRoute(page) {
+
+    let trail = '';
+
+    if (page.parent) {
+      trail = getRoute(page.parent) + '<li><a href="' + root + page.parent.url + '">' + page.parent.title + '</a></li>\n';
+    }
+
+    return trail;
+
+  }
+
+%>
+<%- breadcrumb %>
+
