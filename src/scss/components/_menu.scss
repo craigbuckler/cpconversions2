@@ -5,8 +5,11 @@ $menucentre: $menusize + ($menugap / 2);
 $menupad: $menusize * 3;
 $menuoffset: $menusize * 3;
 
-#menu {
+#menuopen, #menu {
   display: none;
+}
+
+#menu {
   position: fixed;
   top: 3em;
   right: 0;
@@ -37,18 +40,19 @@ $menuoffset: $menusize * 3;
 
 }
 
-#menuopen {
+.menuactive #menuopen {
+  display: block;
   position: fixed;
-  top: 0em;
-  right: 0em;
+  top: -2em;
+  right: -4.5em;
   margin: 0;
 
   a {
     display: block;
-    padding: 1em 2em 1em 1em;
+    padding: 4em 4em 1em 4em;
     color: $color-bak1;
     background-color: $color-logo;
-    border-radius: 0 0 0 1em;
+    transform: rotate(45deg);
   }
 }
 

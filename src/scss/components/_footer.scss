@@ -1,13 +1,50 @@
 // page footer
 footer {
 
-  a.optimalworks {
-    position: absolute;
-    right: 0;
-    bottom: 0;
+  position: relative;
+  font-size: 0.9em;
+  text-align: center;
+  background-color: $color-logo;
+  color: $color-bak1;
+
+  ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    @include reset-list;
+  }
+
+  li {
+    padding: 0.2em 1em;
+
+    a, a:link, a:visited {
+      color: $color-bak1;
+
+      &:before {
+        width: 1.2em;
+        height: 1.2em;
+        margin-right: 0.4em;
+        background-color: $color-bak1;
+        border: 0.2em solid $color-bak1;
+        border-radius: 0.2em;
+      }
+    }
+
+  }
+
+}
+
+p.optimalworks {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  @include reset;
+
+  a {
     font-size: 0.7rem;
     padding: 8px;
     color: #fff;
   }
-
 }
+
+

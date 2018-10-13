@@ -7,8 +7,11 @@ header, .breadcrumb, main, aside, footer {
 
 }
 
-main {
+main, footer {
   padding: 1vh 4vw;
+}
+
+main {
   background: $color-bak1 inline('images/cp-conversions.svg') 100% 0% no-repeat;
   background-size: 60%;
   // background-blend-mode: overlay;
