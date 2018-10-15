@@ -2,17 +2,22 @@
 header, .breadcrumb, main, aside, footer {
 
   max-width: 48em;
+  padding: 0;
   margin: 0 auto;
   background-color: $color-bak1;
 
-}
-
-main, footer {
-  padding: 1vh 4vw;
 }
 
 main {
   background: $color-bak1 inline('images/cp-conversions.svg') 100% 0% no-repeat;
   background-size: 60%;
   // background-blend-mode: overlay;
+  padding: 1vh 4vw 4vw;
+
+}
+
+aside {
+  background-color: $color-bak2;
+  padding: 1vh 0;
+  margin: 1px auto;
 }

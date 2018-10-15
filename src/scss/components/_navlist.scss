@@ -4,10 +4,38 @@
 
   clear: both;
   margin: 1em 0;
+  overflow: auto;
 
   ul, li {
     list-style-type: none;
     @include reset;
+  }
+
+  ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  li {
+    flex: 1 1 15em;
+    margin: 1vmin;
+  }
+
+  li a {
+    text-decoration: none;
+  }
+
+  div.img {
+    width: 60%;
+    float: right;
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    shape-outside: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+  }
+
+  h2 {
+    clear: none;
+    margin-top: 0;
   }
 
 }

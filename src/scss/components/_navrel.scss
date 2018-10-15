@@ -1,1 +1,43 @@
 // relative navigation
+
+.tag, .relative {
+
+  margin: 0.5em 0;
+
+  ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    @include reset-list;
+  }
+
+  li {
+    text-align: left;
+    @include reset;
+  }
+
+  li.link-next {
+    margin-left: auto;
+    text-align: right;
+  }
+
+  li.link-parent {
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  a {
+    display: block;
+    text-decoration: none;
+    padding: 0.5em 1em;
+  }
+
+}
+
+.tag ul {
+  justify-content: flex-end;
+}
+
+p.tag {
+  text-align: right;
+}

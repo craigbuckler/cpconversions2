@@ -1,8 +1,11 @@
 // breadcrumbs
+$bc-size: 5px;
+
 .breadcrumb {
 
   background-color: $color-bak2;
   margin: 1px auto;
+  overflow: hidden;
 
   ol {
     display: flex;
@@ -14,10 +17,44 @@
   }
 
   a, strong {
+    position: relative;
     display: block;
     font-size: 0.9em;
     font-weight: 300;
-    padding: 0.1em 0.5em 0.2em;
+    padding: 0.1em 1em 0.2em 1.2em;
+
+    &::before, &::after {
+      content: '';
+      position: absolute;
+      right: $bc-size * -2;
+      top: 0;
+      bottom: 0;
+      width: 0;
+      height: 0;
+      margin: auto 0;
+      border: $bc-size solid transparent;
+      border-left-color: $color-logo;
+    }
+
+    &::before {
+      left: 0;
+      right: auto;
+      border-left-color: transparent;
+    }
+
+  }
+
+  a:hover {
+    color: $color-bak1;
+    background-color: $color-logo;
+
+    &::before {
+      border-left-color: $color-bak2;
+    }
+  }
+
+  li:first-child a::before {
+    display: none;
   }
 
 }

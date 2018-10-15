@@ -37,6 +37,7 @@
 
     body.classList.remove(cfg.bodyOpen);
     isOpen = false;
+    e.preventDefault();
 
   });
 

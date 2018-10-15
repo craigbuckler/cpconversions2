@@ -4,6 +4,7 @@ footer {
   position: relative;
   font-size: 0.9em;
   text-align: center;
+  padding: 2em 0;
   background-color: $color-logo;
   color: $color-bak1;
 
@@ -36,7 +37,7 @@ footer {
 
 p.optimalworks {
   position: absolute;
-  right: 0;
+  right: -4vw;
   bottom: 0;
   @include reset;
 
