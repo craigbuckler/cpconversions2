@@ -10,4 +10,10 @@ private: true
 nomenu: true
 ---
 
-Sorry, but the page you are looking for could not be found? Please choose an item from the menu or discover:
+Sorry, but the page you are looking for could not be found?
+
+Please [choose an item from the menu](#menu) or discover more about:
+
+* [CP Conversions]([root]about-us/)
+* [our building services]([root]building-services/)
+* [how to contact us]([root]contact-us)

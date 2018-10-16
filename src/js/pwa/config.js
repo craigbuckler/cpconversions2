@@ -18,6 +18,6 @@ const
     '/* @echo rootpath */js/offlinepage.js'
   ].concat(offlineURL),
   installFilesDesirable = [
-    'https://res.cloudinary.com/cpconversions/image/upload/v1539264026/offline',
-    'https://res.cloudinary.com/cpconversions/image/upload/c_scale,w_50/v1539264026/offline'
+    '/* @echo imagecdn */f_auto/v1539264026/offline',
+    '/* @echo imagecdn */f_auto,c_scale,w_50/v1539264026/offline'
   ];

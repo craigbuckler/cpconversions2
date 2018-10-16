@@ -22,11 +22,11 @@ footer {
       color: $color-bak1;
 
       &:before {
-        width: 1.2em;
-        height: 1.2em;
+        width: 1.6em;
+        height: 1.6em;
         margin-right: 0.4em;
         background-color: $color-bak1;
-        border: 0.2em solid $color-bak1;
+        border: 1px solid $color-bak1;
         border-radius: 0.2em;
       }
     }

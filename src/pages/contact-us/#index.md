@@ -28,7 +28,7 @@ For an informal no-obligation discussion of your project requirements, please co
     <dd><a href="/contact-us" class="email" itemprop="email" title="email us">contact {at} cpconversions dot co dot uk</a></dd>
   </dl>
 
-  <p><a href="[root]download/cpconversions.vcf" title="download VCF file">add us to your address book</a></p>
+  <p><a href="[root]download/cpconversions.vcf" title="download VCF file">add to your address book</a></p>
 
 </div>
 
@@ -47,15 +47,36 @@ For an informal no-obligation discussion of your project requirements, please co
   <input type="text" id="company" name="company" value="" maxlength="100" />
   <label for="company">company</label>
 
-  <input type="tel" id="telephone" name="telephone" autocomplete="tel" value="" minlength="6" maxlength="20" />
+  <input type="tel" id="telephone" name="telephone" autocomplete="tel" value="" required="required" minlength="6" maxlength="20" />
   <label for="telephone">telephone</label>
 
-  <input type="email" id="email" name="email" autocomplete="email" value="" required="required" minlength="6" maxlength="80" />
+  <input type="email" id="email" name="email" autocomplete="email" value="" minlength="6" maxlength="80" />
   <label for="email">email</label>
-  <textarea id="details" name="details" rows="4" cols="20" maxlength="500"></textarea>
-  <label for="details">details</label>
 
-  <p>preferred time</p>
+  <p>building requirements</p>
+
+  <input type="checkbox" id="chkconversion" name="chkconversion" value="conversion" />
+  <label for="chkconversion">loft or garage conversion</label>
+
+  <input type="checkbox" id="chkextension" name="chkextension" value="extension" />
+  <label for="chkextension">home extension</label>
+
+  <input type="checkbox" id="chkkitchen" name="chkkitchen" value="kitchen" />
+  <label for="chkkitchen">kitchen installation</label>
+
+  <input type="checkbox" id="chkbathroom" name="chkbathroom" value="bathroom" />
+  <label for="chkbathroom">bathroom installation</label>
+
+  <input type="checkbox" id="chkrefurbishment" name="chkrefurbishment" value="refurbishment" />
+  <label for="chkrefurbishment">refurbishment</label>
+
+  <input type="checkbox" id="chkcarpentry" name="chkcarpentry" value="carpentry" />
+  <label for="chkcarpentry">carpentry</label>
+
+  <input type="checkbox" id="chkother" name="chkother" value="other" />
+  <label for="chkother">other building services</label>
+
+  <p>preferred contact time</p>
 
   <input type="checkbox" id="chkdaytime" name="chkdaytime" value="daytime" />
   <label for="chkdaytime">daytime</label>

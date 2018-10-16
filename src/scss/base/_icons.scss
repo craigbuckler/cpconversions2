@@ -13,6 +13,8 @@
 @include icon('tag');
 @include icon('up');
 @include icon('left');
+@include icon('facebook');
+@include icon('twitter');
 
 .icon:before, .icon.right:after {
   display: inline-block;
@@ -39,6 +41,10 @@
   width: 2.3em;
   height: 0.8em;
   vertical-align: baseline;
+}
+
+.icon.facebook:before {
+  background-color: #fff;
 }
 
 #install {

@@ -44,13 +44,19 @@ p {
   margin: 1em 0 1px 0;
 }
 
+q {
+  &::before, &::after {
+    content: "";
+  }
+}
+
 h2 + p, h2 + blockquote + p {
   margin-top: 0.2em;
 }
 
 ul, ol {
   padding: 0;
-  margin: 1.5em 3em 1em 3em;
+  margin: 1.5em 3em;
 }
 
 ul {
@@ -59,7 +65,7 @@ ul {
 
 li {
   padding: 0;
-  margin: 0.8em 0 0 0;
+  margin: 0.5em 0 0 0;
 }
 
 li > :first-child, li a > :first-child {
@@ -91,17 +97,9 @@ blockquote {
   cite {
     display: block;
     font-size: 0.7em;
-    font-weight: 600;
     font-style: normal;
     margin-top: 0.5em;
-  }
-
-  @include respond('small') {
-
-    width: 50%;
-    float: right;
-    margin: 1em 0 0.5em 2em;
-
+    color: $color-bak1;
   }
 
   &:after {
@@ -113,6 +111,25 @@ blockquote {
     height: 0;
     border: 8px solid transparent;
     border-color: $color-fore transparent transparent $color-fore;
+  }
+
+  @include respond('small') {
+
+    width: 50%;
+    float: right;
+    margin: 1em 1em 0.5em 2em;
+
+    &:nth-child(even) {
+      float: left;
+      margin: 1em 2em 0.5em 1em;
+
+      &:after {
+        left: 15px;
+        right: auto;
+        border-color: $color-fore $color-fore transparent transparent;
+      }
+    }
+
   }
 
 }
@@ -129,7 +146,7 @@ a, a:link, a:visited {
   color: $color-link;
 
   main & {
-    text-decoration: underline dotted $color-link;
+    text-decoration: underline solid currentColor;
   }
 }
 
@@ -138,11 +155,29 @@ a:hover, a:active, a:focus {
 }
 
 figure {
-  margin: 1em 0 0 0;
+  margin: 1em 0;
+  text-align: center;
+
+  a {
+    box-shadow: 0 2px 3px $color-fore;
+  }
 }
 
 figure.inline {
-  box-shadow: 0 2px 5px $color-fore;
+
+  width: 15em;
+  max-width: 50%;
+  float: right;
+  margin-left: 2em;
+
+}
+
+figcaption {
+  display: inline-block;
+  font-size: 1em;
+  text-align: left;
+  margin-top: 0.4em;
+  color: lighten($color-fore, 20%);
 }
 
 img {

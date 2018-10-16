@@ -34,6 +34,10 @@
 
 }
 
+main .tag a {
+  text-decoration: none;
+}
+
 .tag ul {
   justify-content: flex-end;
 }

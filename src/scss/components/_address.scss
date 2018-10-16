@@ -1,6 +1,9 @@
 /* hCard address microformat */
+$hcardpad: 6em;
+
 .vcard
 {
+  max-width: 22em;
   margin: 1em auto;
 
   dl, dt, dd, ul, li, p {
@@ -14,14 +17,18 @@
 
   dt {
     float: left;
-    width: 5em;
+    width: $hcardpad;
     text-align: right;
     padding-right: 0.5em;
     color: lighten($color-fore, 25%);
   }
 
-  .country-name {
-    display: none;
+  p {
+    padding-left: $hcardpad;
+  }
+
+  main & a {
+    text-decoration: none;
   }
 
 }

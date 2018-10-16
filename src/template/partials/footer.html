@@ -7,6 +7,8 @@
     <li><a href="tel:+44-7813-989-909" class="icon phone">+44 7813 989 909</a></li>
     <li><a href="#" class="icon email">contact {at} cpconversions dot co dot uk</a></li>
     <li id="install"><a href="#install" class="icon home-add">install</a></li>
+    <li><a href="https://www.facebook.com/sharer/sharer.php?u=<%- encodeURIComponent(rootURL + url) %>" class="icon facebook social">share on Facebook</a></li>
+    <li><a href="https://twitter.com/intent/tweet/?text=<%- encodeURIComponent((!title.includes(company) ? company + ', ' : '') + title + ':') %>&amp;url=<%- encodeURIComponent(rootURL + url) %>" class="icon twitter social">share on Twitter</a></li>
   </ul>
 
   <p class="optimalworks"><a href="https://www.optimalworks.net/" class="icon optimalworks" title="site developed by OptimalWorks Ltd">optimalWORKS</a></p>

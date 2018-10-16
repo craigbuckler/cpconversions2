@@ -19,7 +19,7 @@
 
         if (!page.private) navHTML +=
           '<li>' +
-          (page.thumb ? '<img src="' + imagecdn + 'c_scale,f_auto,w_250/a_45/' + page.thumb + '" alt="' + page.title + '" />' : '') +
+          (page.thumb ? '<img src="' + imagecdn + 'f_auto,c_scale,w_250/a_45/' + page.thumb + '" alt="' + page.title + '" />' : '') +
           '<a href="' + root + page.url + '">' + page.menu + '</a></li>';
       }
 
@@ -30,3 +30,5 @@
   <%- navHTML %>
 
 </nav>
+
+<p id="facebook"><a href="https://www.facebook.com/cpconversions/" class="icon facebook">Facebook</a></p>

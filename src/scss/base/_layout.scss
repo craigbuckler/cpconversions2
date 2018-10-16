@@ -9,10 +9,11 @@ header, .breadcrumb, main, aside, footer {
 }
 
 main {
-  background: $color-bak1 inline('images/cp-conversions.svg') 100% 0% no-repeat;
+  background: $color-bak1 inline('images/cp-conversions.svg') 100% 0 no-repeat;
   background-size: 60%;
   // background-blend-mode: overlay;
-  padding: 1vh 4vw 4vw;
+  padding: 1vh 4vw 4em;
+  overflow: auto;
 
 }
 

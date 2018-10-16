@@ -14,14 +14,18 @@
     menu = ow.lib.id(ow.menuId),
     isOpen = false,
     cfg = {
+      menuHash: '#' + ow.menuId,
       bodyActive: 'menuactive',
       bodyOpen: 'menuopen'
     };
 
   if (!menuOpener || !menu || !window.addEventListener || !body.classList) return;
 
-  // hamburger
-  menuOpener.addEventListener('click', function(e) {
+  // menu open/close
+  body.addEventListener('click', function(e) {
+
+    var t = e.target;
+    if ((isOpen && ow.lib.closest('nav', t) === menu) || (!isOpen && (t.nodeName !== 'A' || t.hash !== cfg.menuHash))) return;
 
     isOpen = body.classList.toggle(cfg.bodyOpen);
     e.preventDefault();
@@ -30,20 +34,7 @@
   }, false);
 
 
-  // deactivate menu on body click
-  body.addEventListener('click', function(e) {
-
-    if (!isOpen || ow.lib.closest('nav', e.target) === menu) return;
-
-    body.classList.remove(cfg.bodyOpen);
-    isOpen = false;
-    e.preventDefault();
-
-  });
-
-
   // activate menu
   body.classList.add(cfg.bodyActive);
-
 
 })();

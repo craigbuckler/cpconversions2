@@ -8,6 +8,6 @@ private: true
 nomenu: true
 ---
 
-You are not currently connected to a wi-fi or mobile network. Please connect to view any page or choose one of pages you accessed previously:
+You are not currently connected to a wi-fi or mobile network. Please connect to view a page or choose one of pages you accessed recently:
 
 <ul id="cachedpagelist"></ul>

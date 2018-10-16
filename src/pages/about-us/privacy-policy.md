@@ -4,6 +4,8 @@ menu: privacy policy
 description: CP Conversions privacy policy and General Data Protection Regulation (GDPR).
 hero: v1539264577/privacy
 heroquote: committed to protecting your privacy
+ctatext: contact us
+ctalink: contact-us/
 priority: 0.1
 ---
 
