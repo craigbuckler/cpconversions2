@@ -1,13 +1,13 @@
 ---
 title: Contact us
 menu: contact us
-description:
+description: Contact CP Conversions about your next building project for a free, no-obligation quotation.
 hero: v1539358558/contact
 heroquote: contact us about your next building project
 priority: 0.5
 ---
 
-For an informal no-obligation discussion of your project requirements, please contact us directly ([see our privacy policy]([root]about-us/privacy-policy/)):
+For a free, informal, no-obligation discussion of your building project requirements, please contact us directly ([see our privacy policy]([root]about-us/privacy-policy/)):
 
 <div class="vcard" itemscope="itemscope" itemtype="http://schema.org/Organization">
 
@@ -28,7 +28,7 @@ For an informal no-obligation discussion of your project requirements, please co
     <dd><a href="/contact-us" class="email" itemprop="email" title="email us">contact {at} cpconversions dot co dot uk</a></dd>
   </dl>
 
-  <p><a href="[root]download/cpconversions.vcf" title="download VCF file">add to your address book</a></p>
+  <p><a href="[root]download/cpconversions.vcf" title="download VCF file">+ add to your address book</a></p>
 
 </div>
 
@@ -54,6 +54,8 @@ For an informal no-obligation discussion of your project requirements, please co
   <label for="email">email</label>
 
   <p>building requirements</p>
+  <textarea id="overview" name="overview" rows="2" cols="20" maxlength="500"></textarea>
+  <label for="overview">overview</label>
 
   <input type="checkbox" id="chkconversion" name="chkconversion" value="conversion" />
   <label for="chkconversion">loft or garage conversion</label>

@@ -30,7 +30,7 @@ We undertake a variety of work including [loft conversions]([root]building-servi
   <figcaption>Chris Potter, CP Conversions</figcaption>
 </figure>
 
-CP Conversions is a [family-run business]([root]/about-us/) established in 2002.
+CP Conversions is a [family-run business]([root]about-us/) established in 2002.
 
 Our director, Chris Potter, has 40 year's construction experience and has undertaken [hundreds of private and commercial building projects for customers]([root]about-us/testimonials/) in the Exeter and East Devon area.
 

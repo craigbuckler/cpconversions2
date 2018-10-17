@@ -136,6 +136,14 @@ $menuoffset: $menusize * 3;
     a {
       padding: 4em 4em 1em 4em;
       transform: rotate(45deg);
+
+      @media (max-width: 30em) and (max-height: 30em) {
+        background-color: rgba($color-logo, 0.7);
+
+        &:hover, &:focus {
+          background-color: $color-logo;
+        }
+      }
     }
 
   }

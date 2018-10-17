@@ -22,7 +22,7 @@ CP Conversions is a family-run professional building company established in Exet
 * Sue Potter is the office administrator
 * Dan Potter, our eldest son, is a professional carpenter
 
-We only employ highly-skilled builders and engineers including architects, kitchen specialists, plumbers, electricians, gas engineers, plasterers, decorators, roofers and window fitters.
+We only employ highly-skilled builders and engineers including architects, kitchen specialists, plumbers, electricians, gas engineers, plasterers, decorators, roofers, window fitters, paviours, and landscape gardeners.
 
 
 ## Quality-assured workmanship and customer satisfaction
@@ -33,6 +33,13 @@ We have a reputation for quality, integrity, dedication and superior workmanship
 
 
 ## Building project management
+
+<figure class="inline">
+  <a href="[imagecdn]f_auto,c_scale,w_400/v1539262575/cp-conversions-van" class="progressive replace">
+    <img src="[imagecdn]f_auto,c_scale,w_50/v1539262575/cp-conversions-van" class="preview" alt="CP Conversions van" />
+  </a>
+  <figcaption>CP Conversions van</figcaption>
+</figure>
 
 Your project will be fully managed from day one and includes:
 

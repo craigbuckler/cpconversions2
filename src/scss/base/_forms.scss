@@ -124,13 +124,13 @@ button {
   padding: 0.2rem 0 0.4rem;
   margin-top: 1rem;
   color: $color-bak1;
-  background-color: $color-fore;
+  background-color: $color-logo;
   border: 0 none;
   cursor: pointer;
 
   &:hover, &:focus {
     color: #fff;
-    background-color: $field-hint;
+    background-color: lighten($color-logo, 20%);
   }
 
   &::-moz-focus-inner {

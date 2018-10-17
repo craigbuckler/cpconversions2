@@ -10,4 +10,4 @@ tag: building
 priority: 0.9
 ---
 
-CP Conversions fully manages your project from day one. We undertake most types of building work, but regularly-requested projects include:
+CP Conversions fully manages your project from day one. We undertake most types of building, decorating and landscaping work, but regularly-requested projects include:

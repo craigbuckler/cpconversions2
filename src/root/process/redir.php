@@ -4,15 +4,49 @@ $addr = strtolower($_SERVER['REQUEST_URI']);
 $url = '';
 
 // redirects
+$contact = 'contact-us/';
+$about = 'about-us';
+$privacy = $about . 'privacy-policy/';
+$service = 'building-services/';
+$conversion = $service . 'conversions/';
+$extension = $service . 'extensions/';
+$kitchen = $service . 'kitchens/';
+$bathroom = $service . 'bathrooms/';
+$refurbish = $service . 'refurbishments/';
+$carpentry = $service . 'carpentry-joinery/';
+
 $redir = array(
 
 	'index' => '',
 	'welcome' => '',
 	'home' => '',
-	'contact' => 'contact-us/',
-	'phone' => 'contact-us/',
-	'mail' => 'contact-us/',
-	'tel' => 'contact-us/'
+	'priv' => $privacy,
+	'gdpr' => $privacy,
+	'cp' => $about,
+	'us' => $about,
+	'about' => $about,
+	'build' => $service,
+	'project' => $service,
+	'portfolio' => $service,
+	'conv' => $conversion,
+	'loft' => $conversion,
+	'roof' => $conversion,
+	'attic' => $conversion,
+	'gar' => $conversion,
+	'cell' => $conversion,
+	'ext' => $extension,
+	'kitch' => $kitchen,
+	'cook' => $kitchen,
+	'bake' => $kitchen,
+	'bath' => $bathroom,
+	'shower' => $bathroom,
+	'refurb' => $refurbish,
+	'carp' => $carpentry,
+	'join' => $carpentry,
+	'cont' => $contact,
+	'phone' => $contact,
+	'mail' => $contact,
+	'tel' => $contact
 
 );
 foreach ($redir as $pold => $pnew) if (strpos($addr, $pold) !== false) $url = '/* @echo rootURL */' . $pnew;

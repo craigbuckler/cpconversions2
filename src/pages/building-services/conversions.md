@@ -6,7 +6,7 @@ hero: v1539262992/conversion-01
 heroquote: loft, garage and cellar conversions
 ctatext: contact us
 ctalink: contact-us/
-tag: loft, roof, attic, garage, cellar, conversion
+tag: loft, roof, attic, garage, basement, cellar, conversion
 priority: 0.89
 ---
 
@@ -18,8 +18,9 @@ CP Conversions are Exeter's leading loft and garage conversion specialists. We c
 * home offices
 * family and games rooms
 * usable storage space
+* general home alterations
 
-A loft, garage or cellar conversion could improve your standard of living and add 25% to the value of your home.
+A loft, garage, basement or cellar conversion could improve your standard of living and add 25% to the value of your home.
 
 CP Conversions provide expert advice and budget options on all home or business modifications you are considering.
 

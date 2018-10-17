@@ -3,7 +3,7 @@
 // fonts
 $font-main: tahoma, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 $font-size-old: 100%;
-$font-size-rwd: calc(0.7em + 0.5vmax);
+$font-size-rwd: calc(0.8em + 0.5vmax);
 
 // responsive breakpoints
 $breakpoint: (
@@ -14,7 +14,7 @@ $breakpoint: (
 
 // colours
 $color-logo: #622;
-$color-bak1: #ddd;
-$color-bak2: #999;
+$color-bak1: #dadada;
+$color-bak2: #c0c0c0;
 $color-fore: #333;
 $color-link: $color-logo;

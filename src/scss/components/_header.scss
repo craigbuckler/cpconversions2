@@ -9,7 +9,7 @@ header {
     width: 100%;
     height: 100%;
     @include reset;
-    opacity: 0.3;
+    opacity: 0.25;
   }
 
   img {
@@ -67,6 +67,27 @@ a.cta {
     color: #fff;
     background-color: $color-logo;
     border-color: $color-logo;
+  }
+}
+
+$fbsize: 2em;
+#facebook {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+
+  a {
+    display: block;
+    width: $fbsize;
+    margin: $fbsize / 4;
+    white-space: nowrap;
+    overflow: hidden;
+
+    &:before {
+      width: $fbsize;
+      height: $fbsize;
+    }
   }
 }
 
