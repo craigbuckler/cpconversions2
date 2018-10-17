@@ -10,10 +10,9 @@ Header set X-XSS-Protection "1; mode=block"
 RewriteEngine On
 
 /* @if !devBuild */
-# enforce HTTPS non-www
-RewriteCond %{HTTPS} off [OR]
-RewriteCond %{HTTP_HOST} ^www\. [NC]
-RewriteRule ^ /* @echo domain */%{REQUEST_URI} [L,NE,R=301]
+# enforce www
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [L,R=301]
 
 # remove index.html
 RewriteCond %{REQUEST_FILENAME} !-f
