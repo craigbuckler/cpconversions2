@@ -43,6 +43,13 @@ Photographs from recent loft conversions in Exeter:
 </figure>
 
 <figure>
+  <a href="[imagecdn]f_auto,c_scale,w_400/v1539957464/extension-05" data-srcset="[imagecdn]f_auto,c_scale,w_400/v1539957464/extension-05 400w, [imagecdn]f_auto,c_scale,w_600/v1539957464/extension-05 600w, [imagecdn]f_auto/v1539957464/extension-05 800w" data-sizes="100vw" class="progressive replace">
+    <img src="[imagecdn]f_auto,c_scale,w_50/v1539957464/extension-05" class="preview" alt="Exeter garage conversion" />
+  </a>
+  <figcaption>Exeter garage conversion</figcaption>
+</figure>
+
+<figure>
   <a href="[imagecdn]f_auto,c_scale,w_400/v1539262992/conversion-03" data-srcset="[imagecdn]f_auto,c_scale,w_400/v1539262992/conversion-03 400w, [imagecdn]f_auto,c_scale,w_600/v1539262992/conversion-03 600w, [imagecdn]f_auto/v1539262992/conversion-03 800w" data-sizes="100vw" class="progressive replace">
     <img src="[imagecdn]f_auto,c_scale,w_50/v1539262992/conversion-03" class="preview" alt="Exeter loft conversion with Velux windows" />
   </a>

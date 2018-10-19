@@ -10,6 +10,10 @@ Header set X-XSS-Protection "1; mode=block"
 RewriteEngine On
 
 /* @if !devBuild */
+# enforce HTTPS
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ /* @echo rootURL */$1 [L,R=301]
+
 # enforce www
 RewriteCond %{HTTP_HOST} !^www\.
 RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [L,R=301]

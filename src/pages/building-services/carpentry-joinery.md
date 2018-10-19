@@ -32,6 +32,13 @@ Photographs from recent renovations in Exeter:
 </figure>
 
 <figure>
+  <a href="[imagecdn]f_auto,c_scale,w_400/v1539957494/kitchen-07" data-srcset="[imagecdn]f_auto,c_scale,w_400/v1539957494/kitchen-07 400w, [imagecdn]f_auto,c_scale,w_600/v1539957494/kitchen-07 600w, [imagecdn]f_auto/v1539957494/kitchen-07 800w" data-sizes="100vw" class="progressive replace">
+    <img src="[imagecdn]f_auto,c_scale,w_50/v1539957494/kitchen-07" class="preview" alt="Exeter carpentry and joinery" />
+  </a>
+  <figcaption>Exeter wooden kitchen work surface and flooring</figcaption>
+</figure>
+
+<figure>
   <a href="[imagecdn]f_auto,c_scale,w_400/v1539262986/carpentry-02" data-srcset="[imagecdn]f_auto,c_scale,w_400/v1539262986/carpentry-02 400w, [imagecdn]f_auto,c_scale,w_600/v1539262986/carpentry-02 600w, [imagecdn]f_auto/v1539262986/carpentry-02 800w" data-sizes="100vw" class="progressive replace">
     <img src="[imagecdn]f_auto,c_scale,w_50/v1539262986/carpentry-02" class="preview" alt="Exeter carpentry and joinery" />
   </a>
