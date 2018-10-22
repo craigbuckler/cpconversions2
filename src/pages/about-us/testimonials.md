@@ -11,6 +11,9 @@ priority: 0.69
 
 We endeavour to finish all projects on-time and on-budget to the customer's complete satisfaction.
 
+> Chris and his team built a kitchen extension for us and changed the layout of the existing house to match. We enjoyed working with Chris to develop ideas as issues arose and, with his help and workmanship, we are very pleased with the result.
+> <cite>Mr & Mrs McDowell, Exeter</cite>
+
 > Nice chap, very professional job. Would recommend to anyone. Thanks again.
 > <cite>RB, Exeter</cite>
 

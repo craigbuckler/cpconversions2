@@ -37,13 +37,13 @@ footer {
 
 p.optimalworks {
   position: absolute;
-  right: -4vw;
+  right: 0;
   bottom: 0;
   @include reset;
 
   a {
     font-size: 0.7rem;
-    padding: 8px;
+    padding: 4px 1vw;
     color: #fff;
   }
 }
