@@ -119,7 +119,7 @@ blockquote {
     float: right;
     margin: 1em 1em 0.5em 2em;
 
-    &:nth-child(even) {
+    &:nth-child(odd) {
       float: left;
       margin: 1em 2em 0.5em 1em;
 

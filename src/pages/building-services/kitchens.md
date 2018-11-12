@@ -10,6 +10,9 @@ tag: kitchen, refurbish, extension
 priority: 0.87
 ---
 
+> my new kitchen looks amazing
+> <cite>WB, Exeter</cite>
+
 CP Conversions can supply and/or fit your new kitchen. The kitchen is often a home's family meeting space, so new or refurbished units can improve living arrangements and increase the value of the property. We employ our own highly-skilled builders and engineers including:
 
 * kitchen installation specialists

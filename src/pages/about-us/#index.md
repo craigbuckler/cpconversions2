@@ -29,6 +29,9 @@ We only employ highly-skilled builders and engineers including architects, kitch
 
 All our building and conversion work conforms to the highest standards of professional craftsmanship. Final inspections adhere with British Standard 5750.
 
+> My new kitchen looks amazing
+> <cite>WB, Exeter</cite>
+
 We have a reputation for quality, integrity, dedication and superior workmanship for all building projects. Our experience and understanding of our client's requirements mean we have many satisfied customers.
 
 
