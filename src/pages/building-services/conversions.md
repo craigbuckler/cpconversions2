@@ -10,6 +10,9 @@ tag: loft, roof, attic, garage, basement, cellar, conversion
 priority: 0.89
 ---
 
+> a completely professional company with wonderful staff
+> <cite>DP, Exeter</cite>
+
 CP Conversions are Exeter's leading loft and garage conversion specialists. We can transform an old, unused space into a luxury modern living area. Typical conversions include:
 
 * additional bedrooms

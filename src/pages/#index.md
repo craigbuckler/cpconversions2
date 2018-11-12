@@ -9,6 +9,9 @@ ctalink: contact-us/
 priority: 1.0
 ---
 
+> I highly recommend CP Conversions
+> <cite>Dr M Dennison, Exeter</cite>
+
 CP Conversions are a specialist building company providing services to the public and commercial sectors throughout Exeter, Devon and the UK.
 
 We undertake a variety of work including [loft conversions]([root]building-services/conversions/), [house extensions]([root]building-services/extensions/), [refurbishments]([root]building-services/refurbishments/), [kitchen fitting]([root]building-services/kitchens/), [bathroom installation]([root]building-services/bathrooms/), [carpentry]([root]building-services/carpentry-joinery/), and other [building services]([root]building-services/) for projects of any size.
